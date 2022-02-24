@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.nav_bar {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar_link {
+    margin: 0;
+    padding: 0;
+    width: 410px;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_bar_link a {
+    line-height: 26px;
+    text-decoration: none;
+    color: gray;
+}
+
+.icons {
+    text-decoration: none;
+}
+
+.icons a {
+    margin-left: 15px;
+}
+
+
+.site_hero {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero_text {
+    margin-left: 80px;
+    margin-top: 230px;
+}
+
+.site_hero h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;}
+
+.text_line {
+    display: flex;
+    line-height: 62px;
+}
+
+.text_line span {
+    position: absolute;
+    left: 40px;
+    font-size: 35px;
+}
+
+.site_hero h2 {
+    font-size: 35px;
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+}
+
+.site_hero p {
+    margin: 20px 0;
+    color: gray;
+    width: 260px;
+    font-size: 16px;
+}
+
+.btn_1 {
+    margin-top: 50px;
+    padding: 27px 38px;
+    font-size: 12px;
+    border: none;
+    color: white;
+    background: #444240;
+}
+
+.btn_1:hover {
+    background-color: #353332;
+}
+
+.hero_image {
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    font-size: 20px;
+    right: 450px;
+    top: 140px;
+    font-family: 'Playfair Display', serif;
+}
+
+.size {
+    position: absolute;
+    right: -40px;
+    font-size: 20px;
+    bottom: 160px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.watches_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+}
+
+.watch_text {
+    text-align: right;
+    font-size: 20px;
+}
+.watch_text p{
+    margin: 0;
+    padding: 0;
+}
+
+.watch_text hr {
+    margin: 5px;
+    text-align: right;
+    display: inline-block;
+}
+
+
+.watch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.watch li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    width: 300px;
+}
+.bottom_text{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.banner{
+    margin-top: 100px;
+    display: flex;
+}
+.banner_title{
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+}
+.banner_text{
+    margin: 0 auto;
+    color: gray;
+    font-size: 20px;
+    width: 390px;
+}
+.btn_2{
+    margin-top: 40px;
+    padding: 27px 38px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background: #D4B098;
+}
+.btn_2:hover{
+    background: #aa8d7a;
+}
+.banner_img{
+    margin-left: 40px;
+}
+
+
+.about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.about_title{
+    font-size: 35px;
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+}
+.about_text{
+    margin: auto 0;
+}
+.about_text p{
+    color: gray;
+    font-size: 20px;
+    width: 400px;
+}
+.about_text a{
+    text-decoration: none;
+    color:  black;
+}
+.icons_2{
+    margin-top: 100px;
+}
+.icons_2 a{
+    margin-right: 15px;
+}
+
+.img{
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+}
+
+
+
+.footer{
+    background-color: #444240;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    padding: 40px 100px;
+    font-family: roboto;
+}
+
+.contacts_link{
+    padding: 0;
+    list-style-type: none;
+}
+.contacts_link a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    opacity: .6;
+}
+
+.footer_info{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.info_1{
+    margin-left: 50px;
+    padding: 0;
+    list-style: none;
+}
+.info_2{
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.info_3{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    opacity: .6;
+
+}
